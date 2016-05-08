@@ -1,4 +1,10 @@
-# jenkinstein
+# Jenkinstein
+
+    “Beware; for I am fearless, and therefore powerful.” 
+    ― Mary Shelley, Frankenstein
+
+Jenkinstein brings your Jenkins server to life and gives it a voice.
+It can synthesize text to speech and play audio files stored on servers file system.
 
 ## Prerequisites
 
