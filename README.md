@@ -12,13 +12,26 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 [1]: https://github.com/technomancy/leiningen
 
-## Running
+## Usage
 
 To start a web server for the application, run:
 
     lein run
+    
+List stored local sounds.
+    
+    curl -XGET localhost:3000/list 
+    
+Play store local sound given its filename.
+    
+    curl -XGET localhost:3000/play/<filename>
+    
+Speak then given text.
+
+    curl -XGET localhost:3000/speak/<text>
 
 ## License
 
 Copyright © 2016
+
 MIT license
