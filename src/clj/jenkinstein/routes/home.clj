@@ -18,6 +18,6 @@
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
   (GET "/list" [] (files/list-files))
-  (GET "/play/:file" [file] (playback/play file)
-           (GET "/speak/:text" [text] (speech/speak text))))
+  (GET "/play/:file" [file] (playback/play file))
+  (GET "/speak/:text" [text] (speech/speak text)))
 
