@@ -20,7 +20,8 @@
     (try
       (.open clip stream)
       (.start clip)
-      (catch Exception e nil))))
+      (catch Exception e nil))
+    "done"))
 
 
 (defn play [filename]

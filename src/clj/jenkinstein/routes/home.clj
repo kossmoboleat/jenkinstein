@@ -3,6 +3,7 @@
             [jenkinstein.business.files :as files]
             [jenkinstein.business.playback :as playback]
             [jenkinstein.business.speech :as speech]
+            [jenkinstein.business.talk :as talk]
             [compojure.core :refer [defroutes GET]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]))
@@ -18,6 +19,7 @@
   (GET "/" [] (home-page))
   (GET "/about" [] (about-page))
   (GET "/list" [] (files/list-files))
-  (GET "/play/:file" [file] (playback/play file)
-           (GET "/speak/:text" [text] (speech/speak text))))
+  (GET "/play/:file" [file] (playback/play file))
+  (GET "/speak/:text" [text] (speech/speak text))
+  (GET "/talk/:text" [text] (talk/talk text)))
 

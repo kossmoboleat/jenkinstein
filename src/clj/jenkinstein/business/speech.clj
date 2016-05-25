@@ -6,4 +6,5 @@
       (let [manager (VoiceManager/getInstance)
             voice (.getVoice manager "kevin")]
         (.allocate voice)
-        (.speak voice text)))
+        (.speak voice text)
+        "done"))

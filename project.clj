@@ -31,7 +31,12 @@
                  [org.mobicents.external.freetts/cmutimelex "1.0"]
                  [org.mobicents.external.freetts/cmu_us_kal "1.0"]
                  [org.mobicents.external.freetts/en_us "1.0"]
-                 [org.mobicents.external.freetts/freetts "1.0"]]
+                 [org.mobicents.external.freetts/freetts "1.0"]
+                 [de.dfki.mary/voice-cmu-slt-hsmm "5.2-beta3"]]
+
+  :mirrors      {"central" {:url "https://jcenter.bintray.com"}}
+
+  :repositories {"maven"   {:url "http://repo1.maven.org/maven2/"}}
 
   :min-lein-version "2.0.0"
 
