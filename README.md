@@ -6,6 +6,8 @@
 Jenkinstein brings your Jenkins server to life and gives it a voice.
 It can synthesize text to speech and play audio files stored on servers file system.
 
+Powered by <a href="http://mary.dfki.de/">MaryTTS</a>
+
 ## Prerequisites
 
 You will need [Leiningen][1] 2.0 or above installed.
