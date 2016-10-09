@@ -4,7 +4,8 @@
             [jenkinstein.business.playback :as playback]
             [jenkinstein.business.speech :as speech]
             [jenkinstein.business.talk :as talk]
-            [compojure.core :refer [defroutes GET]]
+            [jenkinstein.notify.notify :as notify]
+            [compojure.core :refer [defroutes GET POST]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]))
 
@@ -21,5 +22,5 @@
   (GET "/list" [] (files/list-files))
   (GET "/play/:file" [file] (playback/play file))
   (GET "/speak/:text" [text] (speech/speak text))
-  (GET "/talk/:text" [text] (talk/talk text)))
-
+  (GET "/talk/:text" [text] (talk/talk text))
+  (POST "/notify" request (notify/notify request)))

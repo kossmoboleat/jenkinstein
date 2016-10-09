@@ -24,6 +24,7 @@
                  [luminus-nrepl "0.1.4"]
                  [org.webjars/webjars-locator-jboss-vfs "0.1.0"]
                  [luminus-immutant "0.2.0"]
+                 [clj-http "2.3.0"]
 
                  [org.mobicents.external.freetts/cmu_time_awb "1.0"]
                  [org.mobicents.external.freetts/cmudict04 "1.0"]
@@ -32,7 +33,9 @@
                  [org.mobicents.external.freetts/cmu_us_kal "1.0"]
                  [org.mobicents.external.freetts/en_us "1.0"]
                  [org.mobicents.external.freetts/freetts "1.0"]
-                 [de.dfki.mary/voice-cmu-slt-hsmm "5.2-beta3"]]
+                 [de.dfki.mary/voice-cmu-slt-hsmm "5.2-beta3"]
+
+                 [voice-dfki-spike "5.1"]]
 
   :mirrors      {"central" {:url "https://jcenter.bintray.com"}}
 
@@ -40,9 +43,9 @@
 
   :min-lein-version "2.0.0"
 
-  :jvm-opts ["-server" "-Dconf=.lein-env" "-Dmary.base=$HOME/Documents/Projects/jenkinstein"]
+  :jvm-opts ["-server" "-Dconf=.lein-env" "-Dmary.base=/Users/Tim/Documents/Projects/jenkinstein"]
   :source-paths ["src/clj"]
-  :resource-paths ["resources"]
+  :resource-paths ["resources" "lib" "lib/voices"]
 
   :main jenkinstein.core
 
@@ -61,7 +64,8 @@
                                  [ring/ring-mock "0.3.0"]
                                  [ring/ring-devel "1.4.0"]
                                  [pjstadig/humane-test-output "0.8.0"]]
-                  :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]]
+                  :plugins      [[com.jakemccrary/lein-test-refresh "0.14.0"]
+                                 [lein-localrepo "0.5.3"]]
                   
                   
                   :source-paths ["env/dev/clj" "test/clj"]
