@@ -1,9 +1,7 @@
 /target
-/lib
 /classes
 /checkouts
 pom.xml
-*.jar
 *.class
 /.lein-*
 profiles.clj
@@ -11,3 +9,6 @@ profiles.clj
 .nrepl-port
 /log
 *.wav
+.DS_Store
+.idea
+resources/
