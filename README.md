@@ -31,6 +31,21 @@ Play store local sound given its filename.
 Speak then given text.
 
     curl -XGET localhost:3000/speak/<text>
+    
+Let Jenkinstein react to completed builds with sounds or synthesized speech with the 
+[Post Completed Build Result Plugin](https://wiki.jenkins-ci.org/display/JENKINS/Post+Completed+Build+Result+Plugin).
+
+When configured to send notifications to Jenkinstein your configured sounds are automatically played. Internally 
+Jenkinstein uses the [Remote access API](https://wiki.jenkins-ci.org/display/JENKINS/Remote+access+API) to obtain the 
+job details then.
+ 
+ As "Ping Url" configure 
+     
+     "http://<jenkins-host>:<port>/notify"
+
+The default port is 3000 but it can be configured in dev and prod config.edn or on the commandline with 
+
+    lein run -p <port>
 
 ## License
 
