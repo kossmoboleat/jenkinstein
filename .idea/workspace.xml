@@ -1,16 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6b3ad3e0-acd0-4a47-85e6-73ecc4bc793d" name="Default" comment="">
+    <list default="true" id="6b3ad3e0-acd0-4a47-85e6-73ecc4bc793d" name="Default" comment="-Updated dependencies according to new luminus template&#10;-Added migratus dependency&#10;-Updated to marytts 5.2 and reference spike voice directly from maven&#10;-Deleted obsolete spike voice installation script&#10;-Modified log4j settings to not include verbose marytts output">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__commons_io_2_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__compojure_1_5_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__cprop_0_1_7.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__io_undertow_undertow_core_1_3_0_Beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__io_undertow_undertow_servlet_1_3_0_Beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__io_undertow_undertow_websockets_jsr_1_3_0_Beta9.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__luminus_immutant_0_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__medley_0_7_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__metosin_ring_http_response_0_6_5.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_java_classpath_0_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_clojure_tools_cli_0_3_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_immutant_core_2_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_immutant_web_2_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jboss_logging_jboss_logging_3_1_4_GA.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jboss_xnio_xnio_api_3_4_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_jboss_xnio_xnio_nio_3_4_0_Beta1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_projectodd_wunderboss_wunderboss_clojure_0_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_projectodd_wunderboss_wunderboss_core_0_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_projectodd_wunderboss_wunderboss_web_0_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_projectodd_wunderboss_wunderboss_web_undertow_0_12_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_bootstrap_4_0_0_alpha_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_bower_tether_1_3_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_font_awesome_4_6_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_webjars_jquery_2_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_wildfly_common_wildfly_common_1_0_0_Alpha2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__org_wildfly_security_wildfly_security_manager_1_1_2_Final.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__pjstadig_humane_test_output_0_8_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__potemkin_0_4_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__prone_1_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__riddley_0_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_anti_forgery_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_codec_1_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_defaults_0_2_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Leiningen__ring_ring_devel_1_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/installSpikeVoice.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/voice-dfki-spike-5.1.jar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/dev/clj/user.clj" afterPath="$PROJECT_DIR$/env/dev/clj/user.clj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/dev/resources/log4j.properties" afterPath="$PROJECT_DIR$/env/dev/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/prod/resources/log4j.properties" afterPath="$PROJECT_DIR$/env/prod/resources/log4j.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/jenkinstein.iml" afterPath="$PROJECT_DIR$/jenkinstein.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project.clj" afterPath="$PROJECT_DIR$/project.clj" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" />
     </list>
     <ignored path="jenkinstein.iws" />
     <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,111 +61,98 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="jenkinstein" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="LocalMaryInterface.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/LocalMaryInterface.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaryRuntimeUtils.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/util/MaryRuntimeUtils.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Mary.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/Mary.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="244">
-              <caret line="236" column="42" selection-start-line="236" selection-start-column="42" selection-end-line="236" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaryProperties.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/MaryProperties.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="249">
-              <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="talk.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="37" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="project.clj" pinned="false" current-in-tab="true">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="project.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+            <state relative-caret-position="190">
+              <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="playback.clj" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MaryConfig.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/config/MaryConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Voice.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/modules/synthesis/Voice.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="162" column="12" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="InstallerGUI.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/tools/install/InstallerGUI.java">
+      <file leaf-file-name="user.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="180">
-              <caret line="355" column="32" selection-start-line="355" selection-start-column="32" selection-end-line="355" selection-end-column="32" />
+              <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/core.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="env.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/dev/clj/jenkinstein/env.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dev_middleware.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/dev/clj/jenkinstein/dev_middleware.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="talk.clj" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/prod/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="330">
+              <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/env/dev/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -147,33 +177,33 @@
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/profile.boot" />
+        <option value="$PROJECT_DIR$/build.boot" />
+        <option value="$PROJECT_DIR$/src/clj/jenkinstein/ant.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj" />
+        <option value="$PROJECT_DIR$/env/dev/clj/user.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" />
+        <option value="$PROJECT_DIR$/env/dev/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/env/prod/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/project.clj" />
       </list>
     </option>
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="Bundled (Maven 3)" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
+    <option name="x" value="1682" />
     <option name="y" value="23" />
-    <option name="width" value="1920" />
+    <option name="width" value="1916" />
     <option name="height" value="1053" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
-    <OptionsSetting value="true" id="Add" />
-    <OptionsSetting value="true" id="Remove" />
-    <OptionsSetting value="true" id="Checkout" />
-    <OptionsSetting value="true" id="Update" />
-    <OptionsSetting value="true" id="Status" />
-    <OptionsSetting value="true" id="Edit" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
     <ConfirmationsSetting value="2" id="Add" />
-    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -190,8 +220,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -199,54 +230,8 @@
               <option name="myItemId" value="jenkinstein" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base+system+user+dev+dev" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="stale" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="target" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="base+system+user+dev+dev" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -320,6 +305,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="notify" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="business" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -348,25 +359,15 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="resources" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="sounds" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jenkinstein" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="installed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -381,6 +382,40 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="prod" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -399,6 +434,10 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="resources" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -424,69 +463,64 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="env" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="dev" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="clj" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jenkinstein" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="Leiningen" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../mapme" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="js.eslint.eslintPackage" value="" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="LocalM&#9;FILE&#9;jar:///Users/benke/.m2/repository/de/dfki/mary/marytts-runtime/5.2/marytts-runtime-5.2-sources.jar!/marytts/LocalMaryInterface.java" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="jenkinstein" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../" />
       <recent name="$PROJECT_DIR$/lib" />
       <recent name="$PROJECT_DIR$/src/clj/jenkinstein/routes/business" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1464245124128">{:repl-history {:ide [], :local [&quot;(in-ns jenkinstein.business.talk)&quot; &quot;(in-ns jenkinstein.business.speech)&quot;], :remote [&quot;(ns 'jenkinstein.business.files)&quot; &quot;(ns jenkinstein.business.files)&quot; &quot;(def curr-dir (io/file \&quot;resources/sounds/\&quot;))&quot; &quot;(file-seq curr-dir)&quot; &quot;(take 1 (file-seq curr-dir))&quot; &quot;(.getName (take 1 (file-seq curr-dir)))&quot; &quot;(.getName \&quot;123\&quot;)&quot; &quot;(.toString \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;13\&quot;)&quot; &quot;\&quot;123\&quot;&quot; &quot;curr-dir&quot; &quot;(.getName (take 1 (take 1 (file-seq curr-dir))))&quot; &quot;(take 1 (take 1 (file-seq curr-dir)))\n      &quot; &quot;(first (take 1 (file-seq curr-dir)))\n      &quot; &quot;(.getName (first (take 1 (file-seq curr-dir))))\n      &quot; &quot;(file-seq curr-dir)\n          \n      &quot; &quot;(list-files)&quot; &quot;(play \&quot;medieval.aiff\&quot;)&quot; &quot;(in-ns jenkinstein.business.speech)&quot; &quot;(in-ns 'jenkinstein.business.speech)&quot; &quot;(speak \&quot;test\&quot;)&quot; &quot;(speak \&quot;Hallo Maewen\&quot;)&quot; &quot;(speak \&quot;Build Mainline failed\&quot;)&quot; &quot;(speak \&quot;Build Mainline ... failed\&quot;)&quot; &quot;(speak \&quot;Failure in ... Mainline\&quot;)&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)\n      def v voice])\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     def v voice)\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     (def v voice))\n&quot; &quot;v&quot; &quot;(.allocate v)&quot; &quot;(.getPitch v)&quot; &quot;(.getRate v)&quot; &quot;(.setRate v 50)&quot; &quot;(.setRate v 100)&quot; &quot;(.speak v \&quot;test\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build ... failed\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failue\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failure\&quot;)&quot; &quot;(.setRate v 120)&quot; &quot;(.setRate v 90)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Fail\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.playback)&quot; &quot;(play \&quot;medieval.mp3\&quot;)&quot; &quot;(play \&quot;medieval.wav\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.talk)&quot; &quot;(def x mary (new LocalMaryInterface))&quot; &quot;(def mary (new LocalMaryInterface))&quot; &quot;(.getAvailableVoices mary)&quot; &quot;(.getAvailableLocales mary)&quot; &quot;(.setLocale mary \&quot;en_GB\&quot;)&quot; &quot;(.setLocale mary Locale.BRITISH)&quot; &quot;(.setLocale mary java.util.Locale.ENGLISH)&quot; &quot;(:import java.util Locale)&quot; &quot;(.setLocale mary java.util.Locale.US)&quot; &quot;(import java.util Locale)&quot; &quot;(import java.util Date)&quot; &quot;(.setLocale mary Locale.US)&quot; &quot;(in-ns jenkinstein.business.talk)&quot;]}}</component>
-  <component name="RunManager" selected="Clojure REPL.REPL">
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
-      <module name="" />
-      <option name="DEPLOY" value="true" />
-      <option name="ARTIFACT_NAME" value="" />
-      <option name="PM_INSTALL_OPTIONS" value="" />
-      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
-      <option name="MODE" value="default_activity" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="DEEP_LINK" value="" />
-      <option name="ACTIVITY_CLASS" value="" />
-      <method />
-    </configuration>
-    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
-      <module name="" />
-      <option name="TESTING_TYPE" value="0" />
-      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
-      <option name="METHOD_NAME" value="" />
-      <option name="CLASS_NAME" value="" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="EXTRA_OPTIONS" value="" />
-      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
-      <option name="PREFERRED_AVD" value="" />
-      <option name="CLEAR_LOGCAT" value="false" />
-      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
-      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
-      <option name="FORCE_STOP_RUNNING_APP" value="true" />
-      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
-      <option name="PREFERRED_AVD" value="" />
-      <method />
-    </configuration>
+  <component name="ReplState" timestamp="1477149159961">{:repl-history {:ide [], :local [&quot;(apply str (reverse \&quot;123\&quot;))&quot; &quot;\&quot;racecar\&quot;&quot; &quot;(reverse \&quot;racecar\&quot;)&quot; &quot;\\\\&quot; &quot;(reverse \&quot;ab\\\\\&quot;)&quot; &quot;(=\&quot;abc\&quot; (reverse \&quot;abc\&quot;))&quot; &quot;(=\&quot;racecar\&quot; (reverse \&quot;racecar\&quot;))&quot; &quot;(= (seq \&quot;racecar\&quot; ) (reverse \&quot;racecar\&quot;))&quot; &quot;(= (seq \&quot;racecar\&quot;) (reverse \&quot;racecar\&quot;))&quot; &quot;(defn palindrome? [word] (= (seq word) (reverse word)))\n  &quot; &quot;(palindrome? \&quot;racecar\&quot;)&quot; &quot;(palindrome? \&quot;raceca\&quot;)&quot; &quot;(palindrome? (1 2 1))&quot; &quot;(palindrome? '(1 2 1))&quot; &quot;(palindrome? '(1 2 3))&quot; &quot;(palindrome? [1 2 3]) &quot; &quot;(palindrome? [1 2 1]) &quot; &quot;(palindrome? [1 2 1])&quot; &quot;(1 [1 2])&quot; &quot;([1 2] 2)&quot; &quot;([1 2] 0)\n  &quot; &quot;((1 2) 0)\n  &quot; &quot;('(1 2) 0)\n  &quot; &quot;({:a 1} :a)&quot; &quot;(ns jenkinstein.ant)&quot; &quot;(print-field (make-field 3))&quot; &quot;(print-field (make-field 5))&quot; &quot;([1 2] 1)&quot; &quot;(([[1 2] [3 4]] 1) 1) &quot; &quot;(when true \&quot;Hello\&quot;)&quot; &quot;(defmacro unless [arg &amp; body]\n  `(if (not ~arg)\n     (do ~@body)))\n\n(unless false \&quot;Hello\&quot;)&quot; &quot;(unless true \&quot;Hello\&quot;)&quot; &quot;(when false \&quot;Hello\&quot;)&quot; &quot;(.getClass \\c)&quot; &quot;(+ 1 1)\n\n(defn hello [name]\n  (str \&quot;Hello \&quot; name))\n\n(defn odd-numbers [max]\n  (filter odd? (range max)))\n\n(def keymap {:a 1, :b 2, :c 3})\n\n(keymap :a)&quot; &quot;(odd-numbers 10)\n             &quot; &quot;(defn hello [name]\n  (str \&quot;Hello \&quot; name))&quot; &quot;(.getClass hello)&quot; &quot;(defn odd-numbers [max]\n  (filter odd? (range max)))&quot; &quot;(def keymap {:a 1, :b 2, :c 3})&quot; &quot;(keymap :a)&quot; &quot;(hello \&quot;Tim\&quot;)&quot; &quot;(odd-numbers 10)&quot; &quot;(talk \&quot;Clojure is good\&quot;)&quot; &quot;(talk \&quot;Clojure is great\&quot;)&quot; &quot;(+ 1 1)&quot; &quot;(.getClass \&quot;Hello\&quot;)&quot; &quot;(reverse \&quot;anna\&quot;)&quot; &quot;(= \&quot;abc\&quot; (reverse \&quot;abc\&quot;))&quot; &quot;(= \&quot;anna\&quot; (reverse \&quot;anna\&quot;))&quot; &quot;(reverse \&quot;abc\&quot;)&quot; &quot;(= (seq \&quot;anna\&quot;) (reverse \&quot;anna\&quot;))&quot; &quot;(defn is-palindrome [value]\n  (= (seq value) (reverse value)))&quot; &quot;(is-palindrome \&quot;anna\&quot;)&quot; &quot;(is-palindrome \&quot;abc\&quot;)&quot; &quot;(is-palindrome \&quot;racecar\&quot;)&quot; &quot;'(1 2 3)&quot; &quot;'(\&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def l '(\&quot;a\&quot; \&quot;b\&quot;))&quot; &quot;l&quot; &quot;(conj l \&quot;c\&quot;)&quot; &quot;(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;'(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def person {:first \&quot;Peter\&quot; :second \&quot;Lustig\&quot;})&quot; &quot;(person)&quot; &quot;'(person)&quot; &quot;person&quot; &quot;(person :first)&quot; &quot;{\&quot;first\&quot; \&quot;Peter\&quot;}&quot; &quot;{\&quot;nase\&quot; \&quot;schief\&quot;}&quot; &quot;{:arm \&quot;schief\&quot; \&quot;nase\&quot; \&quot;gerade\&quot;}&quot; &quot;{:arm {:laenge 1 :fingerfarbe \&quot;gelb\&quot;}}&quot; &quot;'(1 2)&quot; &quot;(1 2)&quot; &quot;[1 2 3]&quot; &quot;(defn + [a b]\n  (str a b))&quot; &quot;(+ \&quot;b\&quot; \&quot;c\&quot;)&quot; &quot;(ns jenkinstein.business.talk)&quot; &quot;(def m (new LocalMaryInterface))&quot; &quot;(.getVoic m)&quot; &quot;(.getLocale m)&quot; &quot;(def britishLocale (new Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder()))&quot; &quot;(def britishLocale (new Builder()))&quot; &quot;(import java.util.Locale Builder)&quot; &quot;(import jLocale Builder)&quot; &quot;(def britishLocale (new Locale.Builder()))&quot; &quot;(def britishLocale (new Locale(\&quot;en\&quot; \&quot;GB\&quot;)))&quot; &quot;(def britishLocale new Locale(\&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(def britishLocale (new Locale()))&quot; &quot;(def britishLocale (Locale. \&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(.setLocale britishLocale)&quot; &quot;(.setLocale m britishLocale)&quot; &quot;(.getVoice)&quot; &quot;(.getVoice m)&quot; &quot;(def clip (AudioSystem/getClip))&quot; &quot;(.open clip (.generateAudio mary \&quot;test 123\&quot;))&quot; &quot;(.open clip (.generateAudio m \&quot;test 123\&quot;))&quot; &quot;(.start clip)&quot; &quot;(start)&quot;], :remote [&quot;(ns 'jenkinstein.business.files)&quot; &quot;(ns jenkinstein.business.files)&quot; &quot;(def curr-dir (io/file \&quot;resources/sounds/\&quot;))&quot; &quot;(file-seq curr-dir)&quot; &quot;(take 1 (file-seq curr-dir))&quot; &quot;(.getName (take 1 (file-seq curr-dir)))&quot; &quot;(.getName \&quot;123\&quot;)&quot; &quot;(.toString \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;13\&quot;)&quot; &quot;\&quot;123\&quot;&quot; &quot;curr-dir&quot; &quot;(.getName (take 1 (take 1 (file-seq curr-dir))))&quot; &quot;(take 1 (take 1 (file-seq curr-dir)))\n      &quot; &quot;(first (take 1 (file-seq curr-dir)))\n      &quot; &quot;(.getName (first (take 1 (file-seq curr-dir))))\n      &quot; &quot;(file-seq curr-dir)\n          \n      &quot; &quot;(list-files)&quot; &quot;(play \&quot;medieval.aiff\&quot;)&quot; &quot;(in-ns jenkinstein.business.speech)&quot; &quot;(in-ns 'jenkinstein.business.speech)&quot; &quot;(speak \&quot;test\&quot;)&quot; &quot;(speak \&quot;Hallo Maewen\&quot;)&quot; &quot;(speak \&quot;Build Mainline failed\&quot;)&quot; &quot;(speak \&quot;Build Mainline ... failed\&quot;)&quot; &quot;(speak \&quot;Failure in ... Mainline\&quot;)&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)\n      def v voice])\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     def v voice)\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     (def v voice))\n&quot; &quot;v&quot; &quot;(.allocate v)&quot; &quot;(.getPitch v)&quot; &quot;(.getRate v)&quot; &quot;(.setRate v 50)&quot; &quot;(.setRate v 100)&quot; &quot;(.speak v \&quot;test\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build ... failed\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failue\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failure\&quot;)&quot; &quot;(.setRate v 120)&quot; &quot;(.setRate v 90)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Fail\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.playback)&quot; &quot;(play \&quot;medieval.mp3\&quot;)&quot; &quot;(play \&quot;medieval.wav\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.talk)&quot; &quot;(def x mary (new LocalMaryInterface))&quot; &quot;(def mary (new LocalMaryInterface))&quot; &quot;(.getAvailableVoices mary)&quot; &quot;(.getAvailableLocales mary)&quot; &quot;(.setLocale mary \&quot;en_GB\&quot;)&quot; &quot;(.setLocale mary Locale.BRITISH)&quot; &quot;(.setLocale mary java.util.Locale.ENGLISH)&quot; &quot;(:import java.util Locale)&quot; &quot;(.setLocale mary java.util.Locale.US)&quot; &quot;(import java.util Locale)&quot; &quot;(import java.util Date)&quot; &quot;(.setLocale mary Locale.US)&quot; &quot;(in-ns jenkinstein.business.talk)&quot;]}}</component>
+  <component name="RunManager" selected="Clojure REPL.lein repl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
@@ -531,10 +565,10 @@
       <method />
     </configuration>
     <configuration default="true" type="ClojureREPL" factoryName="Remote">
-      <setting name="host" value="localhost" />
-      <setting name="port" value="7000" />
+      <setting name="host" value="" />
+      <setting name="port" value="0" />
       <setting name="replType" value="0" />
-      <module name="jenkinstein" />
+      <module name="" />
       <method />
     </configuration>
     <configuration default="true" type="ClojureScriptRunConfiguration" factoryName="Clojure Script">
@@ -544,22 +578,6 @@
       <setting name="params" value="" />
       <setting name="workDir" value="" />
       <setting name="repl" value="false" />
-      <method />
-    </configuration>
-    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list />
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
       <method />
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
@@ -574,27 +592,6 @@
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-      <method />
-    </configuration>
-    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
       <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
@@ -625,29 +622,13 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="jenkinstein" />
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
       <envs />
       <method />
     </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <envs />
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="Remote" factoryName="Remote">
@@ -656,6 +637,12 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <envs />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -686,54 +673,20 @@
       <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="SUITE_NAME" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="GROUP_NAME" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <option name="VM_PARAMETERS" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <option name="USE_DEFAULT_REPORTERS" value="false" />
-      <option name="PROPERTIES_FILE" />
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
       <envs />
-      <properties />
-      <listeners />
       <method />
     </configuration>
-    <configuration default="true" type="executeSpecs" factoryName="Gauge Execution">
-      <setting name="environment" value="" />
-      <setting name="specsToExecute" value="" />
-      <setting name="tags" value="" />
-      <setting name="parallelNodes" value="" />
-      <setting name="execInParallel" value="false" />
-      <setting name="programParameters" value="" />
-      <setting name="workingDirectory" value="" />
-      <setting name="moduleName" value="" />
-      <envMap />
-      <setting name="rowsRange" value="" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Unnamed" type="ClojureREPL" factoryName="Local">
-      <setting name="replType" value="0" />
-      <module name="jenkinstein" />
-      <setting name="jvmArgs" value="" />
-      <setting name="parameters" value="" />
-      <setting name="workingDir" value="$PROJECT_DIR$" />
-      <setting name="profiles" value="" />
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
       <method />
     </configuration>
     <configuration default="false" name="REPL" type="ClojureREPL" factoryName="Remote">
@@ -743,10 +696,24 @@
       <module name="jenkinstein" />
       <method />
     </configuration>
+    <configuration default="false" name="lein repl" type="ClojureREPL" factoryName="Local" singleton="true">
+      <setting name="replType" value="0" />
+      <module name="jenkinstein" />
+      <setting name="jvmArgs" value="" />
+      <setting name="parameters" value="" />
+      <setting name="workingDir" value="$PROJECT_DIR$" />
+      <setting name="profiles" value="" />
+      <method />
+    </configuration>
     <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.REPL" />
+      <item index="0" class="java.lang.String" itemvalue="Clojure REPL.REPL" />
+      <item index="1" class="java.lang.String" itemvalue="Clojure REPL.lein repl" />
     </list>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
   </component>
   <component name="ShelveChangesManager" show_recycled="false">
     <option name="remove_strategy" value="false" />
@@ -761,6 +728,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1462627832164</updated>
+      <workItem from="1466757071795" duration="11000" />
+      <workItem from="1466767294240" duration="181000" />
+      <workItem from="1466767518079" duration="416000" />
+      <workItem from="1467111145262" duration="8000" />
+      <workItem from="1472041368420" duration="1231000" />
+      <workItem from="1472049437660" duration="7000" />
+      <workItem from="1472067058833" duration="2054000" />
+      <workItem from="1472144095653" duration="3163000" />
+      <workItem from="1473495198933" duration="70000" />
+      <workItem from="1473495317205" duration="2049000" />
+      <workItem from="1473679761984" duration="10000" />
+      <workItem from="1475169320211" duration="8000" />
+      <workItem from="1475169424084" duration="6002000" />
+      <workItem from="1475654860334" duration="1022000" />
+      <workItem from="1475741967677" duration="7714000" />
+      <workItem from="1476193064853" duration="100000" />
+      <workItem from="1476623609104" duration="3181000" />
+      <workItem from="1476645120722" duration="1174000" />
+      <workItem from="1476648176583" duration="758000" />
+      <workItem from="1477143936591" duration="2871000" />
+      <workItem from="1477147327264" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="-Added MaryTTS">
       <created>1464206145582</created>
@@ -779,37 +767,93 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="33860000" />
+  </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1920" height="1053" extended-state="6" />
+    <frame x="1682" y="23" width="1916" height="1053" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5647059" sideWeight="0.5149095" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3711395" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.49574015" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17860962" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.36363637" sideWeight="0.48509052" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2454739" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32976446" sideWeight="0.49786553" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3875803" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23052295" sideWeight="0.50428265" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3875803" sideWeight="0.4914621" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22055675" sideWeight="0.48452508" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49571735" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25267667" sideWeight="0.47802198" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24439701" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49571735" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.394709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.17809735" sideWeight="0.513431" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38779956" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24969475" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.394709" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32899022" sideWeight="0.49574015" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22055675" sideWeight="0.486569" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9465649" sideWeight="0.47802198" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25438598" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -825,7 +869,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="-Added MaryTTS" />
     <MESSAGE value="-Fixed routes" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Fixed routes" />
+    <MESSAGE value="-Updated dependencies according to new luminus template&#10;-Added migratus dependency&#10;-Updated to marytts 5.2 and reference spike voice directly from maven&#10;-Deleted obsolete spike voice installation script&#10;-Modified log4j settings to not include verbose marytts output" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Updated dependencies according to new luminus template&#10;-Added migratus dependency&#10;-Updated to marytts 5.2 and reference spike voice directly from maven&#10;-Deleted obsolete spike voice installation script&#10;-Modified log4j settings to not include verbose marytts output" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -836,163 +881,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/files.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/layout.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="585">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
+          <caret line="39" column="31" lean-forward="false" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/files.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="37" />
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/layout.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="0">
-            <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/project.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="585">
-          <caret line="39" column="31" selection-start-line="39" selection-start-column="31" selection-end-line="39" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/files.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="37" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/layout.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1000,200 +920,108 @@
     <entry file="jar://$MAVEN_REPOSITORY$/org/clojure/clojure/1.8.0/clojure-1.8.0.jar!/clojure/core.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
-          <caret line="2757" column="6" selection-start-line="2757" selection-start-column="6" selection-end-line="2757" selection-end-column="6" />
+          <caret line="2757" column="6" lean-forward="false" selection-start-line="2757" selection-start-column="6" selection-end-line="2757" selection-end-column="6" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sounds/test2.mp3" />
     <entry file="file://$PROJECT_DIR$/resources/sounds/test.mp3" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/core.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/layout.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/files.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
-          <caret line="5" column="50" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
-          <folding />
+          <caret line="5" column="50" lean-forward="false" selection-start-line="5" selection-start-column="50" selection-end-line="5" selection-end-column="50" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-        </state>
-      </provider>
-      <provider editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="255">
-            <caret line="17" column="11" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-      <provider editor-type-id="MarkdownFxPreviewEditor">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="split-provider[text-editor;MarkdownPreviewEditor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="240">
-            <caret line="16" column="8" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3.jar!/marytts/LocalMaryInterface.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="54" column="45" selection-start-line="54" selection-start-column="45" selection-end-line="54" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
+          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-common/5.2-beta3/marytts-common-5.2-beta3.jar!/marytts/MaryInterface.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
-          <caret line="32" column="29" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
-          <folding />
+          <caret line="32" column="29" lean-forward="false" selection-start-line="32" selection-start-column="29" selection-end-line="32" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-common/5.2-beta3/marytts-common-5.2-beta3-sources.jar!/marytts/MaryInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="59" column="23" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-common/5.2-beta3/marytts-common-5.2-beta3-sources.jar!/marytts/MaryInterface.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/voice-cmu-slt-hsmm/5.2-beta3/voice-cmu-slt-hsmm-5.2-beta3.jar!/META-INF/services/marytts.config.MaryConfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/voice-cmu-slt-hsmm/5.2-beta3/voice-cmu-slt-hsmm-5.2-beta3.jar!/META-INF/maven/de.dfki.mary/voice-cmu-slt-hsmm/pom.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/voice-cmu-slt-hsmm/5.2-beta3/voice-cmu-slt-hsmm-5.2-beta3.jar!/marytts/voice/CmuSltHsmm/mix_excitation_filters.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/voice-cmu-slt-hsmm/5.2-beta3/voice-cmu-slt-hsmm-5.2-beta3.jar!/META-INF/maven/de.dfki.mary/voice-cmu-slt-hsmm/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-850">
-          <caret line="26" column="31" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
-          <folding />
+          <caret line="26" column="31" lean-forward="false" selection-start-line="26" selection-start-column="31" selection-end-line="26" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/tools/install/InstallerGUI.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/tools/install/InstallerGUI.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/modules/synthesis/Voice.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/LocalMaryInterface.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/config/MaryConfig.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/util/MaryRuntimeUtils.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/Mary.java" />
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/MaryProperties.java" />
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
-          <caret line="355" column="32" selection-start-line="355" selection-start-column="32" selection-end-line="355" selection-end-column="32" />
-          <folding />
+          <caret line="12" column="5" lean-forward="false" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/modules/synthesis/Voice.java">
+    <entry file="file://$PROJECT_DIR$/build.boot">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="162" column="12" selection-start-line="162" selection-start-column="11" selection-end-line="162" selection-end-column="16" />
-          <folding />
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="false" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/LocalMaryInterface.java">
+    <entry file="file://$PROJECT_DIR$/profile.boot">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="390">
-          <caret line="63" column="40" selection-start-line="63" selection-start-column="40" selection-end-line="63" selection-end-column="40" />
-          <folding />
+          <caret line="26" column="50" lean-forward="false" selection-start-line="26" selection-start-column="50" selection-end-line="26" selection-end-column="50" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/config/MaryConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/middleware.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="104" column="29" selection-start-line="104" selection-start-column="29" selection-end-line="104" selection-end-column="29" />
-          <folding />
+        <state relative-caret-position="324">
+          <caret line="54" column="0" lean-forward="false" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/util/MaryRuntimeUtils.java">
+    <entry file="file://$PROJECT_DIR$/../ant.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="71" column="24" selection-start-line="71" selection-start-column="24" selection-end-line="71" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/Mary.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="244">
-          <caret line="236" column="42" selection-start-line="236" selection-start-column="42" selection-end-line="236" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3-sources.jar!/marytts/server/MaryProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="249">
-          <caret line="51" column="32" selection-start-line="51" selection-start-column="32" selection-end-line="51" selection-end-column="32" />
+        <state relative-caret-position="285">
+          <caret line="19" column="41" lean-forward="false" selection-start-line="19" selection-start-column="41" selection-end-line="19" selection-end-column="41" />
           <folding />
         </state>
       </provider>
@@ -1201,26 +1029,258 @@
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
-          <caret line="23" column="9" selection-start-line="23" selection-start-column="9" selection-end-line="23" selection-end-column="9" />
+          <caret line="23" column="12" lean-forward="false" selection-start-line="23" selection-start-column="12" selection-end-line="23" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj">
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="37" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="37" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/clj/jenkinstein/test/handler.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/notify/notify.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="8" lean-forward="false" selection-start-line="25" selection-start-column="8" selection-end-line="25" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/config.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/installSpikeVoice.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="47" lean-forward="false" selection-start-line="2" selection-start-column="47" selection-end-line="2" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2-beta3/marytts-runtime-5.2-beta3.jar!/marytts/LocalMaryInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="27" column="13" lean-forward="false" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2/marytts-runtime-5.2.jar!/marytts/LocalMaryInterface.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="36" column="25" lean-forward="true" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" lean-forward="true" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/resources/config.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/prod/resources/config.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/test/resources/config.edn">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/prod/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="32" lean-forward="true" selection-start-line="22" selection-start-column="32" selection-end-line="22" selection-end-column="32" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="53" column="22" selection-start-line="53" selection-start-column="22" selection-end-line="53" selection-end-column="22" />
+        <state relative-caret-position="190">
+          <caret line="57" column="0" lean-forward="true" selection-start-line="57" selection-start-column="0" selection-end-line="57" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/user.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="10" lean-forward="true" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/core.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/jenkinstein/env.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/env/dev/clj/jenkinstein/dev_middleware.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-runtime/5.2/marytts-runtime-5.2-sources.jar!/marytts/LocalMaryInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="342" column="28" lean-forward="false" selection-start-line="342" selection-start-column="28" selection-end-line="342" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>jenkinstein</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8.0_91</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Leiningen: args4j:2.0.26</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
   </component>
 </project>
