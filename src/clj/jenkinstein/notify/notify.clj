@@ -31,9 +31,9 @@
     (println "job status was: " result)
     (let [sound (db/get-sound-by-job-name {:job_name job_name})]
       (if (and sound (is-higher-threshold result (sound :threshold)))
-        (playback/play (sound :sound_filename))))
-    (if (= result "FAILURE")
-      (handle-failure job_name culprits))
+        (playback/play (sound :sound_filename))
+        (if (= result "FAILURE")
+          (handle-failure job_name culprits))))
     (ok)))
 
 (defn register-sound [{:keys [params]}]

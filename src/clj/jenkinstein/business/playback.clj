@@ -4,7 +4,7 @@
     (javax.sound.sampled AudioSystem LineEvent$Type LineListener)
     (java.net URL)))
 
-(defn -play-file
+(defn- play-file
   [file]
   (let [stream (AudioSystem/getAudioInputStream file)
         clip (AudioSystem/getClip)]
