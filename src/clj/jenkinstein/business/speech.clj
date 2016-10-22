@@ -1,4 +1,5 @@
 (ns jenkinstein.business.speech
+  (:require [ring.util.http-response :refer [ok]])
   (:import
     (com.sun.speech.freetts Voice VoiceManager)))
 
@@ -7,4 +8,4 @@
             voice (.getVoice manager "kevin")]
         (.allocate voice)
         (.speak voice text)
-        "done"))
+        (ok)))

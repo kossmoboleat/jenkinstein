@@ -1,8 +1,8 @@
 (ns jenkinstein.business.playback
-  (:require [clojure.java.io :as io])
+  (:require [clojure.java.io :as io]
+            [ring.util.http-response :refer [ok]])
   (:import
-    (javax.sound.sampled AudioSystem LineEvent$Type LineListener)
-    (java.net URL)))
+    (javax.sound.sampled AudioSystem LineEvent$Type LineListener)))
 
 (defn- play-file
   [file]
@@ -20,9 +20,9 @@
     (try
       (.open clip stream)
       (.start clip)
-      (catch Exception e nil))
-    "done"))
+      (catch Exception e nil))))
 
 
 (defn play [filename]
-  (play-file (io/file (str "resources/sounds/" filename))))
+  (play-file (io/file (str "resources/sounds/" filename)))
+  (ok))

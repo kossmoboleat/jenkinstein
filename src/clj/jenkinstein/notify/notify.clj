@@ -8,16 +8,16 @@
             [ring.util.http-response :refer [ok created]]))
 
 (defn handle-failure [job_name culprits]
-  (println "a job failed!")
-  (let [culprit-names (join ", " (map :fullName culprits))]
-    (talk/talk (str "The job " job_name " failed since " culprit-names " committed."))))
+  (println culprits)
+  (let [culprit-part (when (not (empty? culprits))
+                       (str "since " (join ", " (map :fullName culprits)) " committed"))]
+    (talk/talk (str "The job " job_name "failed" culprit-part "."))))
 
 (defn parse-job-name [url]
   (second (re-find #"/job/(.*?)/" url)))
 
 (defn is-higher-threshold [result threshold]
   true)
-
 
 (defn notify [{:keys [params]}]
   (let [url (str (:url params) "api/json?pretty=true")
@@ -26,14 +26,13 @@
         body (:body response)
         result (:result body)
         culprits (:culprits body)]
-    (println "This job completed: " url)
-    (println body)
-    (println "job status was: " result)
+    (println "This job" job_name "ended with status" result)
     (let [sound (db/get-sound-by-job-name {:job_name job_name})]
-      (if (and sound (is-higher-threshold result (sound :threshold)))
-        (playback/play (sound :sound_filename))
-        (if (= result "FAILURE")
-          (handle-failure job_name culprits))))
+      (when (and sound (is-higher-threshold result (sound :threshold)))
+        (do
+          (playback/play (sound :sound_filename))
+          (if (= result "FAILURE")
+            (handle-failure job_name culprits)))))
     (ok)))
 
 (defn register-sound [{:keys [params]}]

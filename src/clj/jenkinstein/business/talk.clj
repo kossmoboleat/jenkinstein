@@ -1,4 +1,5 @@
 (ns jenkinstein.business.talk
+  (:require [ring.util.http-response :refer [ok]])
   (:import
     (marytts LocalMaryInterface)
     (javax.sound.sampled AudioSystem)
@@ -12,4 +13,4 @@
 
     (.open clip (.generateAudio mary text))
     (.start clip)
-    {:result "success"}))
+    (ok)))
