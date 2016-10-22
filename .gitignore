@@ -11,4 +11,4 @@ profiles.clj
 *.wav
 .DS_Store
 .idea
-resources/
+*.db

@@ -5,7 +5,7 @@
             [jenkinstein.business.speech :as speech]
             [jenkinstein.business.talk :as talk]
             [jenkinstein.notify.notify :as notify]
-            [compojure.core :refer [defroutes GET POST]]
+            [compojure.core :refer [defroutes GET POST DELETE]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]))
 
@@ -17,10 +17,14 @@
   (layout/render "about.html"))
 
 (defroutes home-routes
-  (GET "/" [] (home-page))
-  (GET "/about" [] (about-page))
-  (GET "/list" [] (files/list-files))
-  (GET "/play/:file" [file] (playback/play file))
-  (GET "/speak/:text" [text] (speech/speak text))
-  (GET "/talk/:text" [text] (talk/talk text))
-  (POST "/notify" request (notify/notify request)))
+           (GET "/" [] (home-page))
+           (GET "/about" [] (about-page))
+           (GET "/list" [] (files/list-files))
+           (GET "/play/:file" [file] (playback/play file))
+           (GET "/speak/:text" [text] (speech/speak text))
+           (GET "/talk/:text" [text] (talk/talk text))
+           (POST "/notify" request (notify/notify request))
+           (GET "/sounds" [] (notify/get-sounds))
+           (GET "/sounds/:id" [id] (notify/get-sound id))
+           (DELETE "/sounds/:id" [id] (notify/delete-sound id))
+           (POST "/sounds" request (notify/register-sound request)))

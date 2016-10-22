@@ -2,6 +2,7 @@
   (:require [jenkinstein.handler :as handler]
             [luminus.repl-server :as repl]
             [luminus.http-server :as http]
+            [luminus-migrations.core :as migrations]
             [jenkinstein.config :refer [env]]
             [clojure.tools.cli :refer [parse-opts]]
             [clojure.tools.logging :as log]
@@ -48,4 +49,11 @@
   (.addShutdownHook (Runtime/getRuntime) (Thread. stop-app)))
 
 (defn -main [& args]
-  (start-app args))
+  (cond
+    (some #{"migrate" "rollback"} args)
+    (do
+      (mount/start #'jenkinstein.config/env)
+      (migrations/migrate args (select-keys env [:database-url]))
+      (System/exit 0))
+    :else
+    (start-app args)))
