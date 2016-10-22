@@ -1,8 +1,8 @@
 -- :name create-sound! :! :n
 -- :doc creates a new sound record
 INSERT INTO sounds
-(id, job_name_regex, sound_filename, threshold)
-VALUES (:id, :job_name_regex, :sound_filename, :threshold);
+(id, job_name, sound_filename, threshold)
+VALUES (:id, :job_name, :sound_filename, :threshold);
 
 -- :name get-sounds :? :*
 -- :doc retrieve all sounds
@@ -24,4 +24,4 @@ WHERE id = :id;
 -- :doc retrieve a sound given a job-name.
 SELECT *
 FROM sounds
-WHERE job_name_regex = :job_name;
+WHERE job_name = :job_name;

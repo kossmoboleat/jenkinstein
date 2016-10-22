@@ -5,6 +5,7 @@
             [jenkinstein.business.speech :as speech]
             [jenkinstein.business.talk :as talk]
             [jenkinstein.notify.notify :as notify]
+            [jenkinstein.sound.sound :as sound]
             [compojure.core :refer [defroutes GET POST DELETE]]
             [ring.util.http-response :as response]
             [clojure.java.io :as io]))
@@ -24,7 +25,7 @@
            (GET "/speak/:text" [text] (speech/speak text))
            (GET "/talk/:text" [text] (talk/talk text))
            (POST "/notify" request (notify/notify request))
-           (GET "/sounds" [] (notify/get-sounds))
-           (GET "/sounds/:id" [id] (notify/get-sound id))
-           (DELETE "/sounds/:id" [id] (notify/delete-sound id))
-           (POST "/sounds" request (notify/register-sound request)))
+           (GET "/sounds" [] (sound/get-sounds))
+           (GET "/sounds/:id" [id] (sound/get-sound id))
+           (DELETE "/sounds/:id" [id] (sound/delete-sound! id))
+           (POST "/sounds" request (sound/create-sound! request)))
