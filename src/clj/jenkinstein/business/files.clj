@@ -30,4 +30,4 @@
 
 (defn upload-file [file]
   (upload-file-to-path sounds-path file)
-  (redirect (str "/sound-files")))
+  (redirect "/sound-files"))

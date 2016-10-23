@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-<h2>Upload a file</h2>
+<h3>Upload a sound-file</h3>
 <form action="/files" enctype="multipart/form-data" method="POST">
     <!--{% csrf-field %} -->
-    <input id="file" name="file" type="file"/>
+    <input id="file" name="file" type="file"/><br><br>
     <input type="submit" value="upload"/>
 </form>
 {% endblock %}

@@ -1,9 +1,64 @@
 {% extends "base.html" %}
 {% block content %}
-<h5>Sound Entries</h5>
-<ul>
-    {% for sound in sounds %}
-    <li> {{sound}}</li>
-    {% endfor %}
-</ul>
+<h3>Sound Entries</h3>
+
+<p>
+<h4>Delete a sound entry</h4>
+<form id="deleteSoundForm" action="/sounds" method="POST">
+    <ul>
+        {% for sound in sounds %}
+        <li><input name="id" type="radio" value="{{sound.id}}">
+            job-name: {{sound.job_name}},
+            sound-file: {{sound.sound_filename}},
+            threshold: {{sound.threshold}}
+        </li>
+        {% endfor %}
+    </ul>
+    <!--{% csrf-field %} -->
+    <input type="submit" value="delete"/>
+</form>
+</p>
+
+<p>
+<h4>Create a sound entry</h4>
+<form id="createSoundForm" action="/sounds" enctype="multipart/form-data" method="POST">
+    job-name: <input type="text" name="job_name"><br>
+    sound-file:
+    <select name="sound_filename">
+        {% for sound-file in files %}
+        <option value={{sound-file}}>{{sound-file}}</option>
+        {% endfor %}
+    </select><br>
+    threshold:
+    <select name="threshold">
+        <option value="SUCCESS">success</option>
+        <option value="UNSTABLE">unstable</option>
+        <option value="FAILURE">failure</option>
+    </select><br>
+    <!--{% csrf-field %} -->
+    <input type="submit" value="create"/>
+</form>
+</p>
+
+<script type="application/javascript">
+    $("#deleteSoundForm").submit(function (event) {
+        event.preventDefault();
+
+        var $form = $(this),
+            deleteId = $("input[name='id']:checked").val(),
+            url = $form.attr('action');
+
+        $.ajax({
+            url: url + '/' + deleteId,
+            type: 'DELETE',
+            success: function (data) {
+                location.reload();
+            },
+            error: function (xhr, status, errorThrown) {
+                location.reload();
+            }
+        });
+    });
+</script>
+
 {% endblock %}

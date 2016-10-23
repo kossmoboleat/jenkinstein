@@ -15,6 +15,11 @@ SELECT *
 FROM sounds
 WHERE id = :id;
 
+-- :name get-max-sound-id :? :1
+-- :doc get the maximum sound id.
+SELECT MAX(id) AS MAX_ID
+FROM sounds;
+
 -- :name delete-sound! :! :n
 -- :doc delete a sound given the id
 DELETE FROM sounds

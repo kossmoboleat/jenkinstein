@@ -18,11 +18,10 @@
   (layout/render "sound-files.html" (:body (files/list-files))))
 
 (defn sounds-page []
-  (layout/render "sound-entries.html" {:sounds (:body (sound/get-sounds))}))
+  (layout/render "sound-entries.html" (merge {:sounds (:body (sound/get-sounds))} (:body (files/list-files)))))
 
 (defroutes home-routes
            (GET "/" [] (home-page))
-           (GET "/about" [] (layout/render "about.html"))
            (GET "/upload" [] (layout/render "upload.html"))
            (POST "/files" [file] (files/upload-file file))
            (GET "/files" [] (files/list-files))

@@ -30,12 +30,6 @@
                       </a>
                   </li>
                   <li class="nav-item">
-                      <a href="{{servlet-context}}/about"
-                         class="nav-link{% ifequal page "about.html" %} active{%endifequal%}">
-                      about
-                      </a>
-                  </li>
-                  <li class="nav-item">
                       <a href="{{servlet-context}}/sound-entries"
                          class="nav-link{% ifequal page " sound-entries.html" %} active{%endifequal%}">
                       sound-entries
@@ -57,13 +51,15 @@
           </div>
       </nav>
 
-    <div class="container">
+      {% script "/assets/jquery/jquery.min.js" %}
+
+
+      <div class="container">
       {% block content %}
       {% endblock %}
     </div>
 
     <!-- scripts -->
-    {% script "/assets/jquery/jquery.min.js" %}
     {% script "/assets/tether/dist/js/tether.min.js" %}
     {% script "/assets/bootstrap/js/bootstrap.min.js" %}
 

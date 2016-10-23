@@ -1,11 +1,16 @@
 (ns jenkinstein.sound.sound
   (:require [jenkinstein.db.core :as db]
-            [ring.util.http-response :refer [ok created]]))
+            [ring.util.http-response :refer [ok created]]
+            [ring.util.response :refer [redirect]]))
+
+;(defn create-sound! [{:keys [params]}]
+;  (let [created-id (db/create-sound! params)
+;        created-url (str "/sounds/" created-id)]
+;    (created created-url)))
 
 (defn create-sound! [{:keys [params]}]
-  (let [created-id (db/create-sound! params)
-        created-url (str "/sounds/" created-id)]
-    (created created-url)))
+  (db/create-sound! (assoc params :id (inc (Integer/parseInt (:max_id (db/get-max-sound-id))))))
+  (redirect "/sound-entries"))
 
 (defn get-sounds []
   (ok (db/get-sounds)))
