@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h2>Upload a file</h2>
+<form action="/files" enctype="multipart/form-data" method="POST">
+    <!--{% csrf-field %} -->
+    <input id="file" name="file" type="file"/>
+    <input type="submit" value="upload"/>
+</form>
+{% endblock %}

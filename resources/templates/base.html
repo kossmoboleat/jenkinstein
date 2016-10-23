@@ -3,7 +3,7 @@
   <head>
     <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <META name="viewport" content="width=device-width, initial-scale=1">
-    <title>Welcome to jenkinstein</title>
+      <title>Jenkinstein</title>
 
     <!-- styles -->
     {% style "/assets/bootstrap/css/bootstrap.min.css" %}
@@ -33,6 +33,24 @@
                       <a href="{{servlet-context}}/about"
                          class="nav-link{% ifequal page "about.html" %} active{%endifequal%}">
                       about
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="{{servlet-context}}/sound-entries"
+                         class="nav-link{% ifequal page " sound-entries.html" %} active{%endifequal%}">
+                      sound-entries
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="{{servlet-context}}/sound-files"
+                         class="nav-link{% ifequal page " sound-files.html" %} active{%endifequal%}">
+                      sound-files
+                      </a>
+                  </li>
+                  <li class="nav-item">
+                      <a href="{{servlet-context}}/upload"
+                         class="nav-link{% ifequal page " upload.html" %} active{%endifequal%}">
+                      upload
                       </a>
                   </li>
               </ul>

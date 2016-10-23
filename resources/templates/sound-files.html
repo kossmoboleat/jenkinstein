@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+{% block content %}
+<h5>Sound files</h5>
+<ul>
+    {% for file in files %}
+    <li> {{file}}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
