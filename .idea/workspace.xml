@@ -2,16 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6b3ad3e0-acd0-4a47-85e6-73ecc4bc793d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/migrations/20161022222105-rename-sounds-job-name-column.down.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resources/migrations/20161022222105-rename-sounds-job-name-column.up.sql" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/sound/sound.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="$PROJECT_DIR$/.idea/replstate.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/env/dev/resources/log4j.properties" afterPath="$PROJECT_DIR$/env/dev/resources/log4j.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/resources/sql/queries.sql" afterPath="$PROJECT_DIR$/resources/sql/queries.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/jenkinstein/notify/notify.clj" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/notify/notify.clj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/replstate.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj" afterPath="$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj" />
     </list>
     <ignored path="jenkinstein.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -40,16 +33,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="log4j.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/env/dev/resources/log4j.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="core.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/db/core.clj">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.clj" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.clj" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+            <state relative-caret-position="465">
+              <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,6 +58,26 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
               <caret line="17" column="31" lean-forward="true" selection-start-line="17" selection-start-column="31" selection-end-line="17" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="playback.clj" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="510">
+              <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -115,16 +118,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="390">
               <caret line="26" column="27" lean-forward="true" selection-start-line="26" selection-start-column="27" selection-end-line="26" selection-end-column="27" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="20161017104251-add-sounds-table.up.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/migrations/20161017104251-add-sounds-table.up.sql">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -173,7 +166,6 @@
         <option value="$PROJECT_DIR$/env/prod/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/files.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/speech.clj" />
-        <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj" />
         <option value="$PROJECT_DIR$/env/dev/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/talk.clj" />
         <option value="$PROJECT_DIR$/resources/migrations/20161022222105-rename-sounds-job-name-column.up.sql" />
@@ -182,6 +174,7 @@
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/sound/sound.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/notify/notify.clj" />
         <option value="$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj" />
+        <option value="$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj" />
       </list>
     </option>
   </component>
@@ -653,7 +646,7 @@
       <recent name="$PROJECT_DIR$/src/clj/jenkinstein/routes/business" />
     </key>
   </component>
-  <component name="ReplState" timestamp="1477170506012">{:repl-history {:ide [], :local [&quot;(palindrome? [1 2 1]) &quot; &quot;(palindrome? [1 2 1])&quot; &quot;(1 [1 2])&quot; &quot;([1 2] 2)&quot; &quot;([1 2] 0)\n  &quot; &quot;((1 2) 0)\n  &quot; &quot;('(1 2) 0)\n  &quot; &quot;({:a 1} :a)&quot; &quot;(ns jenkinstein.ant)&quot; &quot;(print-field (make-field 3))&quot; &quot;(print-field (make-field 5))&quot; &quot;([1 2] 1)&quot; &quot;(([[1 2] [3 4]] 1) 1) &quot; &quot;(when true \&quot;Hello\&quot;)&quot; &quot;(defmacro unless [arg &amp; body]\n  `(if (not ~arg)\n     (do ~@body)))\n\n(unless false \&quot;Hello\&quot;)&quot; &quot;(unless true \&quot;Hello\&quot;)&quot; &quot;(when false \&quot;Hello\&quot;)&quot; &quot;(.getClass \\c)&quot; &quot;(+ 1 1)\n\n(defn hello [name]\n  (str \&quot;Hello \&quot; name))\n\n(defn odd-numbers [max]\n  (filter odd? (range max)))\n\n(def keymap {:a 1, :b 2, :c 3})\n\n(keymap :a)&quot; &quot;(odd-numbers 10)\n             &quot; &quot;(defn hello [name]\n  (str \&quot;Hello \&quot; name))&quot; &quot;(.getClass hello)&quot; &quot;(defn odd-numbers [max]\n  (filter odd? (range max)))&quot; &quot;(def keymap {:a 1, :b 2, :c 3})&quot; &quot;(keymap :a)&quot; &quot;(hello \&quot;Tim\&quot;)&quot; &quot;(odd-numbers 10)&quot; &quot;(talk \&quot;Clojure is good\&quot;)&quot; &quot;(talk \&quot;Clojure is great\&quot;)&quot; &quot;(+ 1 1)&quot; &quot;(.getClass \&quot;Hello\&quot;)&quot; &quot;(reverse \&quot;anna\&quot;)&quot; &quot;(= \&quot;abc\&quot; (reverse \&quot;abc\&quot;))&quot; &quot;(= \&quot;anna\&quot; (reverse \&quot;anna\&quot;))&quot; &quot;(reverse \&quot;abc\&quot;)&quot; &quot;(= (seq \&quot;anna\&quot;) (reverse \&quot;anna\&quot;))&quot; &quot;(defn is-palindrome [value]\n  (= (seq value) (reverse value)))&quot; &quot;(is-palindrome \&quot;anna\&quot;)&quot; &quot;(is-palindrome \&quot;abc\&quot;)&quot; &quot;(is-palindrome \&quot;racecar\&quot;)&quot; &quot;'(1 2 3)&quot; &quot;'(\&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def l '(\&quot;a\&quot; \&quot;b\&quot;))&quot; &quot;l&quot; &quot;(conj l \&quot;c\&quot;)&quot; &quot;(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;'(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def person {:first \&quot;Peter\&quot; :second \&quot;Lustig\&quot;})&quot; &quot;(person)&quot; &quot;'(person)&quot; &quot;person&quot; &quot;(person :first)&quot; &quot;{\&quot;first\&quot; \&quot;Peter\&quot;}&quot; &quot;{\&quot;nase\&quot; \&quot;schief\&quot;}&quot; &quot;{:arm \&quot;schief\&quot; \&quot;nase\&quot; \&quot;gerade\&quot;}&quot; &quot;{:arm {:laenge 1 :fingerfarbe \&quot;gelb\&quot;}}&quot; &quot;'(1 2)&quot; &quot;(1 2)&quot; &quot;[1 2 3]&quot; &quot;(defn + [a b]\n  (str a b))&quot; &quot;(+ \&quot;b\&quot; \&quot;c\&quot;)&quot; &quot;(def m (new LocalMaryInterface))&quot; &quot;(.getVoic m)&quot; &quot;(.getLocale m)&quot; &quot;(def britishLocale (new Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder()))&quot; &quot;(def britishLocale (new Builder()))&quot; &quot;(import java.util.Locale Builder)&quot; &quot;(import jLocale Builder)&quot; &quot;(def britishLocale (new Locale.Builder()))&quot; &quot;(def britishLocale (new Locale(\&quot;en\&quot; \&quot;GB\&quot;)))&quot; &quot;(def britishLocale new Locale(\&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(def britishLocale (new Locale()))&quot; &quot;(def britishLocale (Locale. \&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(.setLocale britishLocale)&quot; &quot;(.setLocale m britishLocale)&quot; &quot;(.getVoice)&quot; &quot;(.getVoice m)&quot; &quot;(def clip (AudioSystem/getClip))&quot; &quot;(.open clip (.generateAudio mary \&quot;test 123\&quot;))&quot; &quot;(.open clip (.generateAudio m \&quot;test 123\&quot;))&quot; &quot;(.start clip)&quot; &quot;(create-sound! \&quot;1\&quot; \&quot;1\&quot; \&quot;1\&quot; \&quot;1\&quot;)&quot; &quot;(conman/bind-connection *db* \&quot;sql/queries.sql\&quot;)&quot; &quot;(ns jenkinstein.db.core)&quot; &quot;(register-sound {:params {}})&quot; &quot;(register-sound {:params {:url \&quot;123\&quot;}})&quot; &quot;(handle-failure \&quot;test\&quot; nil)&quot; &quot;(empty? [])&quot; &quot;(not-empty [])&quot; &quot;(handle-failure \&quot;test\&quot; [])&quot; &quot;(start)&quot; &quot;(ns jenkinstein.business.talk)&quot; &quot;(talk \&quot;test\&quot;)&quot; &quot;(ns jenkinstein.notify.notify)&quot; &quot;(is-higher :success :unstable)&quot; &quot;(is-higher :unstable :unstable)&quot; &quot;(&gt;=-threshold :unstable :failure)&quot; &quot;(&gt;=-threshold :unstable :unstable)&quot; &quot;(&gt;=-threshold :unstable :success)&quot;], :remote [&quot;(ns 'jenkinstein.business.files)&quot; &quot;(ns jenkinstein.business.files)&quot; &quot;(def curr-dir (io/file \&quot;resources/sounds/\&quot;))&quot; &quot;(file-seq curr-dir)&quot; &quot;(take 1 (file-seq curr-dir))&quot; &quot;(.getName (take 1 (file-seq curr-dir)))&quot; &quot;(.getName \&quot;123\&quot;)&quot; &quot;(.toString \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;13\&quot;)&quot; &quot;\&quot;123\&quot;&quot; &quot;curr-dir&quot; &quot;(.getName (take 1 (take 1 (file-seq curr-dir))))&quot; &quot;(take 1 (take 1 (file-seq curr-dir)))\n      &quot; &quot;(first (take 1 (file-seq curr-dir)))\n      &quot; &quot;(.getName (first (take 1 (file-seq curr-dir))))\n      &quot; &quot;(file-seq curr-dir)\n          \n      &quot; &quot;(list-files)&quot; &quot;(play \&quot;medieval.aiff\&quot;)&quot; &quot;(in-ns jenkinstein.business.speech)&quot; &quot;(in-ns 'jenkinstein.business.speech)&quot; &quot;(speak \&quot;test\&quot;)&quot; &quot;(speak \&quot;Hallo Maewen\&quot;)&quot; &quot;(speak \&quot;Build Mainline failed\&quot;)&quot; &quot;(speak \&quot;Build Mainline ... failed\&quot;)&quot; &quot;(speak \&quot;Failure in ... Mainline\&quot;)&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)\n      def v voice])\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     def v voice)\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     (def v voice))\n&quot; &quot;v&quot; &quot;(.allocate v)&quot; &quot;(.getPitch v)&quot; &quot;(.getRate v)&quot; &quot;(.setRate v 50)&quot; &quot;(.setRate v 100)&quot; &quot;(.speak v \&quot;test\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build ... failed\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failue\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failure\&quot;)&quot; &quot;(.setRate v 120)&quot; &quot;(.setRate v 90)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Fail\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.playback)&quot; &quot;(play \&quot;medieval.mp3\&quot;)&quot; &quot;(play \&quot;medieval.wav\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.talk)&quot; &quot;(def x mary (new LocalMaryInterface))&quot; &quot;(def mary (new LocalMaryInterface))&quot; &quot;(.getAvailableVoices mary)&quot; &quot;(.getAvailableLocales mary)&quot; &quot;(.setLocale mary \&quot;en_GB\&quot;)&quot; &quot;(.setLocale mary Locale.BRITISH)&quot; &quot;(.setLocale mary java.util.Locale.ENGLISH)&quot; &quot;(:import java.util Locale)&quot; &quot;(.setLocale mary java.util.Locale.US)&quot; &quot;(import java.util Locale)&quot; &quot;(import java.util Date)&quot; &quot;(.setLocale mary Locale.US)&quot; &quot;(in-ns jenkinstein.business.talk)&quot;]}}</component>
+  <component name="ReplState" timestamp="1477207927997">{:repl-history {:ide [], :local [&quot;(palindrome? [1 2 1]) &quot; &quot;(palindrome? [1 2 1])&quot; &quot;(1 [1 2])&quot; &quot;([1 2] 2)&quot; &quot;([1 2] 0)\n  &quot; &quot;((1 2) 0)\n  &quot; &quot;('(1 2) 0)\n  &quot; &quot;({:a 1} :a)&quot; &quot;(ns jenkinstein.ant)&quot; &quot;(print-field (make-field 3))&quot; &quot;(print-field (make-field 5))&quot; &quot;([1 2] 1)&quot; &quot;(([[1 2] [3 4]] 1) 1) &quot; &quot;(when true \&quot;Hello\&quot;)&quot; &quot;(defmacro unless [arg &amp; body]\n  `(if (not ~arg)\n     (do ~@body)))\n\n(unless false \&quot;Hello\&quot;)&quot; &quot;(unless true \&quot;Hello\&quot;)&quot; &quot;(when false \&quot;Hello\&quot;)&quot; &quot;(.getClass \\c)&quot; &quot;(+ 1 1)\n\n(defn hello [name]\n  (str \&quot;Hello \&quot; name))\n\n(defn odd-numbers [max]\n  (filter odd? (range max)))\n\n(def keymap {:a 1, :b 2, :c 3})\n\n(keymap :a)&quot; &quot;(odd-numbers 10)\n             &quot; &quot;(defn hello [name]\n  (str \&quot;Hello \&quot; name))&quot; &quot;(.getClass hello)&quot; &quot;(defn odd-numbers [max]\n  (filter odd? (range max)))&quot; &quot;(def keymap {:a 1, :b 2, :c 3})&quot; &quot;(keymap :a)&quot; &quot;(hello \&quot;Tim\&quot;)&quot; &quot;(odd-numbers 10)&quot; &quot;(talk \&quot;Clojure is good\&quot;)&quot; &quot;(talk \&quot;Clojure is great\&quot;)&quot; &quot;(+ 1 1)&quot; &quot;(.getClass \&quot;Hello\&quot;)&quot; &quot;(reverse \&quot;anna\&quot;)&quot; &quot;(= \&quot;abc\&quot; (reverse \&quot;abc\&quot;))&quot; &quot;(= \&quot;anna\&quot; (reverse \&quot;anna\&quot;))&quot; &quot;(reverse \&quot;abc\&quot;)&quot; &quot;(= (seq \&quot;anna\&quot;) (reverse \&quot;anna\&quot;))&quot; &quot;(defn is-palindrome [value]\n  (= (seq value) (reverse value)))&quot; &quot;(is-palindrome \&quot;anna\&quot;)&quot; &quot;(is-palindrome \&quot;abc\&quot;)&quot; &quot;(is-palindrome \&quot;racecar\&quot;)&quot; &quot;'(1 2 3)&quot; &quot;'(\&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def l '(\&quot;a\&quot; \&quot;b\&quot;))&quot; &quot;l&quot; &quot;(conj l \&quot;c\&quot;)&quot; &quot;(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;'(\&quot;c\&quot; \&quot;a\&quot; \&quot;b\&quot;)&quot; &quot;(def person {:first \&quot;Peter\&quot; :second \&quot;Lustig\&quot;})&quot; &quot;(person)&quot; &quot;'(person)&quot; &quot;person&quot; &quot;(person :first)&quot; &quot;{\&quot;first\&quot; \&quot;Peter\&quot;}&quot; &quot;{\&quot;nase\&quot; \&quot;schief\&quot;}&quot; &quot;{:arm \&quot;schief\&quot; \&quot;nase\&quot; \&quot;gerade\&quot;}&quot; &quot;{:arm {:laenge 1 :fingerfarbe \&quot;gelb\&quot;}}&quot; &quot;'(1 2)&quot; &quot;(1 2)&quot; &quot;[1 2 3]&quot; &quot;(defn + [a b]\n  (str a b))&quot; &quot;(+ \&quot;b\&quot; \&quot;c\&quot;)&quot; &quot;(def m (new LocalMaryInterface))&quot; &quot;(.getVoic m)&quot; &quot;(.getLocale m)&quot; &quot;(def britishLocale (new Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder().setLanguage(\&quot;en\&quot;).setRegion(\&quot;GB\&quot;).build()))&quot; &quot;(def britishLocale (new java.util.Locale.Builder()))&quot; &quot;(def britishLocale (new Builder()))&quot; &quot;(import java.util.Locale Builder)&quot; &quot;(import jLocale Builder)&quot; &quot;(def britishLocale (new Locale.Builder()))&quot; &quot;(def britishLocale (new Locale(\&quot;en\&quot; \&quot;GB\&quot;)))&quot; &quot;(def britishLocale new Locale(\&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(def britishLocale (new Locale()))&quot; &quot;(def britishLocale (Locale. \&quot;en\&quot; \&quot;GB\&quot;))&quot; &quot;(.setLocale britishLocale)&quot; &quot;(.setLocale m britishLocale)&quot; &quot;(.getVoice)&quot; &quot;(.getVoice m)&quot; &quot;(def clip (AudioSystem/getClip))&quot; &quot;(.open clip (.generateAudio mary \&quot;test 123\&quot;))&quot; &quot;(.open clip (.generateAudio m \&quot;test 123\&quot;))&quot; &quot;(.start clip)&quot; &quot;(create-sound! \&quot;1\&quot; \&quot;1\&quot; \&quot;1\&quot; \&quot;1\&quot;)&quot; &quot;(conman/bind-connection *db* \&quot;sql/queries.sql\&quot;)&quot; &quot;(ns jenkinstein.db.core)&quot; &quot;(register-sound {:params {}})&quot; &quot;(register-sound {:params {:url \&quot;123\&quot;}})&quot; &quot;(handle-failure \&quot;test\&quot; nil)&quot; &quot;(empty? [])&quot; &quot;(not-empty [])&quot; &quot;(handle-failure \&quot;test\&quot; [])&quot; &quot;(start)&quot; &quot;(ns jenkinstein.business.talk)&quot; &quot;(talk \&quot;test\&quot;)&quot; &quot;(ns jenkinstein.notify.notify)&quot; &quot;(is-higher :success :unstable)&quot; &quot;(is-higher :unstable :unstable)&quot; &quot;(&gt;=-threshold :unstable :failure)&quot; &quot;(&gt;=-threshold :unstable :unstable)&quot; &quot;(&gt;=-threshold :unstable :success)&quot;], :remote [&quot;(ns 'jenkinstein.business.files)&quot; &quot;(ns jenkinstein.business.files)&quot; &quot;(def curr-dir (io/file \&quot;resources/sounds/\&quot;))&quot; &quot;(file-seq curr-dir)&quot; &quot;(take 1 (file-seq curr-dir))&quot; &quot;(.getName (take 1 (file-seq curr-dir)))&quot; &quot;(.getName \&quot;123\&quot;)&quot; &quot;(.toString \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;123\&quot;)&quot; &quot;(.equals \&quot;123\&quot; \&quot;13\&quot;)&quot; &quot;\&quot;123\&quot;&quot; &quot;curr-dir&quot; &quot;(.getName (take 1 (take 1 (file-seq curr-dir))))&quot; &quot;(take 1 (take 1 (file-seq curr-dir)))\n      &quot; &quot;(first (take 1 (file-seq curr-dir)))\n      &quot; &quot;(.getName (first (take 1 (file-seq curr-dir))))\n      &quot; &quot;(file-seq curr-dir)\n          \n      &quot; &quot;(list-files)&quot; &quot;(play \&quot;medieval.aiff\&quot;)&quot; &quot;(in-ns jenkinstein.business.speech)&quot; &quot;(in-ns 'jenkinstein.business.speech)&quot; &quot;(speak \&quot;test\&quot;)&quot; &quot;(speak \&quot;Hallo Maewen\&quot;)&quot; &quot;(speak \&quot;Build Mainline failed\&quot;)&quot; &quot;(speak \&quot;Build Mainline ... failed\&quot;)&quot; &quot;(speak \&quot;Failure in ... Mainline\&quot;)&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)\n      def v voice])\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     def v voice)\n&quot; &quot;(let [manager (VoiceManager/getInstance)\n      voice (.getVoice manager \&quot;kevin\&quot;)]\n     (def v voice))\n&quot; &quot;v&quot; &quot;(.allocate v)&quot; &quot;(.getPitch v)&quot; &quot;(.getRate v)&quot; &quot;(.setRate v 50)&quot; &quot;(.setRate v 100)&quot; &quot;(.speak v \&quot;test\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build ... failed\&quot;)&quot; &quot;(.speak v \&quot;Mainline Build .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. failed\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failue\&quot;)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Failure\&quot;)&quot; &quot;(.setRate v 120)&quot; &quot;(.setRate v 90)&quot; &quot;(.speak v \&quot;Tile .. \\\&quot;build mainline\\\&quot; .. Fail\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.playback)&quot; &quot;(play \&quot;medieval.mp3\&quot;)&quot; &quot;(play \&quot;medieval.wav\&quot;)&quot; &quot;(in-ns 'jenkinstein.business.talk)&quot; &quot;(def x mary (new LocalMaryInterface))&quot; &quot;(def mary (new LocalMaryInterface))&quot; &quot;(.getAvailableVoices mary)&quot; &quot;(.getAvailableLocales mary)&quot; &quot;(.setLocale mary \&quot;en_GB\&quot;)&quot; &quot;(.setLocale mary Locale.BRITISH)&quot; &quot;(.setLocale mary java.util.Locale.ENGLISH)&quot; &quot;(:import java.util Locale)&quot; &quot;(.setLocale mary java.util.Locale.US)&quot; &quot;(import java.util Locale)&quot; &quot;(import java.util Date)&quot; &quot;(.setLocale mary Locale.US)&quot; &quot;(in-ns jenkinstein.business.talk)&quot;]}}</component>
   <component name="RunManager" selected="Clojure REPL.lein repl">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
@@ -882,7 +875,7 @@
       <workItem from="1476645120722" duration="1174000" />
       <workItem from="1476648176583" duration="758000" />
       <workItem from="1477143936591" duration="2871000" />
-      <workItem from="1477147327264" duration="14018000" />
+      <workItem from="1477147327264" duration="15085000" />
     </task>
     <task id="LOCAL-00001" summary="-Added MaryTTS">
       <created>1464206145582</created>
@@ -926,11 +919,18 @@
       <option name="project" value="LOCAL" />
       <updated>1477160575705</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="-Properly log instead of println&#10;-Renamed job_name_regex to job_name for exact matches&#10;-Refactored sound CRUD operations to its own namespace&#10;-Properly compare job result status with sound threshold">
+      <created>1477170588029</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1477170588029</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="46048000" />
+    <option name="totallyTimeSpent" value="47115000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2" y="23" width="1676" height="1023" extended-state="6" />
@@ -941,13 +941,13 @@
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3875803" sideWeight="0.5085379" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30783352" sideWeight="0.50428265" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.375765" sideWeight="0.50428265" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.47566372" sideWeight="0.4914621" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22055675" sideWeight="0.48452508" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49571735" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4159292" sideWeight="0.47802198" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23929009" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14565483" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32977587" sideWeight="0.49571735" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1035,7 +1035,8 @@
     <MESSAGE value="-Added sounds table&#10;-Added CRUD operations for sound table as REST requests&#10;-Added basic name matching to play sound" />
     <MESSAGE value="-Fixed compile error&#10;-Only announce test failure, when job also plays a sound&#10;-Increased log level threshold to INFO for dev" />
     <MESSAGE value="-Added proper return code&#10;-Fixed handling job notifications" />
-    <option name="LAST_COMMIT_MESSAGE" value="-Added proper return code&#10;-Fixed handling job notifications" />
+    <MESSAGE value="-Properly log instead of println&#10;-Renamed job_name_regex to job_name for exact matches&#10;-Refactored sound CRUD operations to its own namespace&#10;-Properly compare job result status with sound threshold" />
+    <option name="LAST_COMMIT_MESSAGE" value="-Properly log instead of println&#10;-Renamed job_name_regex to job_name for exact matches&#10;-Refactored sound CRUD operations to its own namespace&#10;-Properly compare job result status with sound threshold" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -1046,7 +1047,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/marytts-common/5.2-beta3/marytts-common-5.2-beta3-sources.jar!/marytts/MaryInterface.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/de/dfki/mary/voice-cmu-slt-hsmm/5.2-beta3/voice-cmu-slt-hsmm-5.2-beta3.jar!/META-INF/services/marytts.config.MaryConfig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1218,14 +1218,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/project.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -1308,16 +1300,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="36" lean-forward="false" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-          <folding>
-            <marker date="1477159964000" expanded="true" signature="0:200" ph="(ns jenkinstein.business.playback ...)" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/env/dev/resources/log4j.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
@@ -1374,14 +1356,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/sound/sound.clj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/notify/notify.clj">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1392,8 +1366,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/routes/home.clj">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="24" column="58" lean-forward="true" selection-start-line="24" selection-start-column="58" selection-end-line="24" selection-end-column="58" />
+        <state relative-caret-position="465">
+          <caret line="31" column="0" lean-forward="true" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_91.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="292">
+          <caret line="140" column="6" lean-forward="false" selection-start-line="140" selection-start-column="6" selection-end-line="140" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/sound/sound.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/clj/jenkinstein/business/playback.clj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="0" lean-forward="true" selection-start-line="34" selection-start-column="0" selection-end-line="34" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
         </state>
       </provider>
