@@ -9,8 +9,10 @@
 ;    (created created-url)))
 
 (defn create-sound! [{:keys [params]}]
-  (db/create-sound! (assoc params :id (inc (Integer/parseInt (:max_id (db/get-max-sound-id))))))
-  (redirect "/sound-entries"))
+  (let [max_id_str (:max_id (db/get-max-sound-id))
+        max_id (Integer/parseInt (if (nil? max_id_str) "0" max_id_str))]
+    (db/create-sound! (assoc params :id (inc max_id)))
+    (redirect "/sound-entries")))
 
 (defn get-sounds []
   (ok (db/get-sounds)))
