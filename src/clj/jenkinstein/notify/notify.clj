@@ -5,7 +5,8 @@
             [jenkinstein.db.core :as db]
             [clojure.string :refer [join]]
             [clojure.tools.logging :as log]
-            [ring.util.http-response :refer [ok created]]))
+            [ring.util.http-response :refer [ok created]]
+            [ring.util.codec :refer [url-decode]]))
 
 (defn handle-failure [job_name culprits]
   (let [culprit-part (when (not (empty? culprits))
@@ -13,7 +14,7 @@
     (talk/talk (str "The job " job_name "failed" culprit-part "."))))
 
 (defn parse-job-name [url]
-  (second (re-find #"/job/(.*?)/" url)))
+  (url-decode (second (re-find #"job/([^/]*?)/\d*/?$" url))))
 
 (defn >=-threshold [left right]
   (let [values [:success :unstable :failure :not-built :aborted]]
