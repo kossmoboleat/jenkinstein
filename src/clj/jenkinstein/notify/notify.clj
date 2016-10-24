@@ -14,6 +14,7 @@
     (talk/talk (str "The job " job_name "failed" culprit-part "."))))
 
 (defn parse-job-name [url]
+  (log/info url)
   (url-decode (second (re-find #"job/([^/]*?)/\d*/?$" url))))
 
 (defn >=-threshold [left right]
