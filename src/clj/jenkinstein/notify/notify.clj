@@ -30,11 +30,12 @@
         job_result (make-status (:result body))
         culprits (:culprits body)]
     (log/info "Job" job_name "ended with status" job_result)
-    (let [sound (db/get-sound-by-job-name {:job_name job_name})
-          sound-threshold (make-status (sound :threshold))]
-      (when (and sound (>=-threshold job_result sound-threshold))
-        (do
-          (playback/play (sound :sound_filename))
-          (if (= job_result "FAILURE")
-            (handle-failure job_name culprits)))))
+    (let [sound (db/get-sound-by-job-name {:job_name job_name})]
+      (when sound
+        (let [sound-threshold (make-status (sound :threshold))]
+          (when (>=-threshold job_result sound-threshold)
+            (do
+              (playback/play (sound :sound_filename))
+              (if (= job_result "FAILURE")
+                (handle-failure job_name culprits)))))))
     (ok)))
