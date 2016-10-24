@@ -25,8 +25,9 @@
   (keyword (clojure.string/lower-case status-str)))
 
 (defn notify [{:keys [params]}]
-  (let [url (str (:url params) "api/json?pretty=true")
-        job_name (parse-job-name url)
+  (let [original-url (:url params)
+        job_name (parse-job-name original-url)
+        url (str original-url "api/json?pretty=true")
         response (client/get url {:as :json})
         body (:body response)
         job_result (make-status (:result body))
