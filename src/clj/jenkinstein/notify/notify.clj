@@ -38,6 +38,5 @@
           (when (>=-threshold job_result sound-threshold)
             (do
               (playback/play (sound :sound_filename))
-              (if (= job_result "FAILURE")
-                (handle-failure job_name culprits)))))))
+              (handle-failure job_name culprits))))))
     (ok)))
