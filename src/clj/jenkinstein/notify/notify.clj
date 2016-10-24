@@ -14,7 +14,6 @@
     (talk/talk (str "The job " job_name "failed" culprit-part "."))))
 
 (defn parse-job-name [url]
-  (log/info url)
   (url-decode (second (re-find #"job/([^/]*?)/\d*/?$" url))))
 
 (defn >=-threshold [left right]
@@ -32,7 +31,7 @@
         body (:body response)
         job_result (make-status (:result body))
         culprits (:culprits body)]
-    (log/info "Job" job_name "ended with status" job_result)
+    (log/info "Job" job_name "ended with status" job_result "url: " original-url)
     (let [sound (db/get-sound-by-job-name {:job_name job_name})]
       (when sound
         (let [sound-threshold (make-status (sound :threshold))]
