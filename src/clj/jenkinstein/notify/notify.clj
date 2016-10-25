@@ -25,14 +25,14 @@
 
 (defn get-job-json [url]
   (let [json-url (str url "api/json")
-        response (client/get url {:as :json})]
+        response (client/get json-url {:as :json})]
     (:body response)))
 
 (defn job-result [response]
   (make-status (:result response)))
 
 (defn get-previous-result [url]
-  (let [build-number-str (second (re-find #"/(\d*)/?$"))
+  (let [build-number-str (second (re-find #"/(\d*)/?$" url))
         build-number (Integer/parseInt build-number-str)
         previous-build-number (if (= build-number 1)
                                 1
