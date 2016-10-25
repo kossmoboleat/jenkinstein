@@ -23,20 +23,42 @@
 (defn make-status [status-str]
   (keyword (clojure.string/lower-case status-str)))
 
+(defn get-job-json [url]
+  (let [json-url (str url "api/json")
+        response (client/get url {:as :json})]
+    (:body response)))
+
+(defn job-result [response]
+  (make-status (:result response)))
+
+(defn get-previous-result [url]
+  (let [build-number-str (second (re-find #"/(\d*)/?$"))
+        build-number (Integer/parseInt build-number-str)
+        previous-build-number (if (= build-number 1)
+                                1
+                                (dec build-number))
+        previous-url (clojure.string/replace url build-number-str (str previous-build-number))]
+    (job-result (get-job-json previous-url))))
+
+(defn status-changed? [old-status new-status]
+  (not= old-status new-status))
+
 (defn notify [{:keys [params]}]
-  (let [original-url (:url params)
-        job_name (parse-job-name original-url)
-        url (str original-url "api/json?pretty=true")
-        response (client/get url {:as :json})
-        body (:body response)
-        job_result (make-status (:result body))
-        culprits (:culprits body)]
-    (log/info "Job" job_name "ended with status" job_result "url: " original-url)
+  (let [url (:url params)
+        job_name (parse-job-name url)
+        response (get-job-json url)
+        old_job_result (get-previous-result url)
+        job_result (job-result response)
+        culprits (:culprits response)]
+    (log/info "Job" job_name "ended with status" job_result "url: " url)
     (let [sound (db/get-sound-by-job-name {:job_name job_name})]
       (when sound
         (let [sound-threshold (make-status (sound :threshold))]
-          (when (>=-threshold job_result sound-threshold)
+          (when (and (>=-threshold job_result sound-threshold)
+                     (status-changed? job-result (get-previous-result url)))
             (do
               (playback/play (sound :sound_filename))
               (handle-failure job_name culprits))))))
     (ok)))
+
+
