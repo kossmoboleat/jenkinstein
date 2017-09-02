@@ -40,7 +40,7 @@
 
   :mirrors      {"central" {:url "https://jcenter.bintray.com"}}
 
-  :repositories {"maven"   {:url "http://repo1.maven.org/maven2/"}}
+  :repositories {"maven"   {:url "https://repo1.maven.org/maven2/"}}
 
   :min-lein-version "2.0.0"
 
