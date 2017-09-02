@@ -1,3 +1,5 @@
+-- noinspection SqlNoDataSourceInspectionForFile
+
 -- :name create-sound! :! :n
 -- :doc creates a new sound record
 INSERT INTO sounds
