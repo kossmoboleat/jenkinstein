@@ -16,6 +16,13 @@ You will need [Leiningen][1] 2.0 or above installed.
 
 ## Usage
 
+Add a database configuration as environment variable or in a profiles.clj such as this for development. 
+For production a proper db and user/password should be used.
+
+```
+{:profiles/dev  {:env {:database-url "jdbc:h2:./jenkinstein_dev.db"}}}
+```
+
 To start a web server for the application, run:
 
     lein run
